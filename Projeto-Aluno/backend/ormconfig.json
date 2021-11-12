@@ -1,0 +1,24 @@
+{
+   "type": "postgres",
+   "host": "ziggy.db.elephantsql.com",
+   "port": 5432,
+   "username": "rjdbusyl",
+   "password": "9MLo0FphTtuJ-zzuCAH6pUC-Ydt_N_QL",
+   "database": "rjdbusyl",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/entity/**/*.ts"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
